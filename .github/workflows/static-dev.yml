@@ -1,9 +1,9 @@
-name: Deploy PROD
+name: Deploy DEV
 
 on:
   push:
     branches:
-      - main
+      - develop
 
   workflow_dispatch:
 
